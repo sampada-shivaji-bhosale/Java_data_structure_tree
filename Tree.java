@@ -18,6 +18,7 @@ class Insert{
             return;
         }
         System.out.print(node.data);
+        System.out.println("Node Data :"+node.data);
         traversal(node.left);
         traversal(node.right);
 
